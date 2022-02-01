@@ -1,0 +1,6 @@
+.widgets{
+    width: 320px;
+}
+.widgets > iframe{
+    position: fixed;
+}

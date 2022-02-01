@@ -1,0 +1,8 @@
+.fix{
+    flex: 0.33;
+}
+.sidebar{
+    padding: 15px 7px;
+    position: fixed;   
+    z-index: 0; 
+}

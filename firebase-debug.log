@@ -1,0 +1,109 @@
+[debug] [2021-08-30T18:56:51.982Z] ----------------------------------------------------------------------
+[debug] [2021-08-30T18:56:52.001Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\SAGNIK MITRA\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2021-08-30T18:56:52.003Z] CLI Version:   9.16.6
+[debug] [2021-08-30T18:56:52.004Z] Platform:      win32
+[debug] [2021-08-30T18:56:52.005Z] Node Version:  v14.16.0
+[debug] [2021-08-30T18:56:52.028Z] Time:          Tue Aug 31 2021 00:26:52 GMT+0530 (India Standard Time)
+[debug] [2021-08-30T18:56:52.029Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-08-30T18:56:52.534Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-08-30T18:56:52.536Z] > authorizing via signed-in user (sagnikmitra10@gmail.com)
+[debug] [2021-08-30T18:56:52.537Z] [iam] checking project facebook-clone-2e824 for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2021-08-30T18:56:52.552Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2021-08-30T18:56:52.555Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-08-30T18:56:53.418Z] <<< HTTP RESPONSE 200 {"cache-control":"no-cache, no-store, max-age=0, must-revalidate","expires":"Mon, 01 Jan 1990 00:00:00 GMT","pragma":"no-cache","date":"Mon, 30 Aug 2021 18:56:52 GMT","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-08-30T18:56:53.608Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/facebook-clone-2e824:testIamPermissions  
+ {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2021-08-30T18:56:55.296Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Mon, 30 Aug 2021 18:56:54 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=1199","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-08-30T18:56:55.303Z] > refreshing access token with scopes: []
+[debug] [2021-08-30T18:56:55.303Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-08-30T18:56:57.073Z] <<< HTTP RESPONSE 200 {"pragma":"no-cache","date":"Mon, 30 Aug 2021 18:56:54 GMT","expires":"Mon, 01 Jan 1990 00:00:00 GMT","cache-control":"no-cache, no-store, max-age=0, must-revalidate","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-08-30T18:56:57.260Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/facebook-clone-2e824 [none]
+[debug] [2021-08-30T18:56:58.050Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/facebook-clone-2e824 200
+[debug] [2021-08-30T18:56:58.051Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/facebook-clone-2e824 {"projectId":"facebook-clone-2e824","projectNumber":"539137372330","displayName":"facebook-clone","name":"projects/facebook-clone-2e824","resources":{"hostingSite":"facebook-clone-2e824","storageBucket":"facebook-clone-2e824.appspot.com","locationId":"us-central"},"state":"ACTIVE"}
+[info] 
+[info] === Deploying to 'facebook-clone-2e824'...
+[info] 
+[info] i  deploying hosting 
+[debug] [2021-08-30T18:56:58.065Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2021-08-30T18:56:58.065Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-08-30T18:56:58.502Z] <<< HTTP RESPONSE 200 {"cache-control":"no-cache, no-store, max-age=0, must-revalidate","date":"Mon, 30 Aug 2021 18:56:57 GMT","expires":"Mon, 01 Jan 1990 00:00:00 GMT","pragma":"no-cache","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-08-30T18:56:58.647Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/facebook-clone-2e824/versions  
+ {"config":{"rewrites":[{"glob":"**","path":"/index.html"}]},"labels":{"deployment-tool":"cli-firebase"}}
+[debug] [2021-08-30T18:57:20.378Z] Error: connect ETIMEDOUT 216.58.200.138:443
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1146:16)
+[error] 
+[error] Error: Server Error. connect ETIMEDOUT 216.58.200.138:443
+[debug] [2021-08-30T18:58:11.519Z] ----------------------------------------------------------------------
+[debug] [2021-08-30T18:58:11.525Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\SAGNIK MITRA\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2021-08-30T18:58:11.526Z] CLI Version:   9.16.6
+[debug] [2021-08-30T18:58:11.526Z] Platform:      win32
+[debug] [2021-08-30T18:58:11.527Z] Node Version:  v14.16.0
+[debug] [2021-08-30T18:58:11.532Z] Time:          Tue Aug 31 2021 00:28:11 GMT+0530 (India Standard Time)
+[debug] [2021-08-30T18:58:11.532Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-08-30T18:58:11.756Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-08-30T18:58:11.757Z] > authorizing via signed-in user (sagnikmitra10@gmail.com)
+[debug] [2021-08-30T18:58:11.757Z] [iam] checking project facebook-clone-2e824 for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2021-08-30T18:58:11.765Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/facebook-clone-2e824:testIamPermissions  
+ {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2021-08-30T18:58:13.429Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Mon, 30 Aug 2021 18:58:12 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=1204","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-08-30T18:58:13.442Z] > refreshing access token with scopes: []
+[debug] [2021-08-30T18:58:13.443Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-08-30T18:58:13.908Z] <<< HTTP RESPONSE 200 {"date":"Mon, 30 Aug 2021 18:58:12 GMT","expires":"Mon, 01 Jan 1990 00:00:00 GMT","pragma":"no-cache","cache-control":"no-cache, no-store, max-age=0, must-revalidate","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-08-30T18:58:14.076Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/facebook-clone-2e824 [none]
+[debug] [2021-08-30T18:58:14.727Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/facebook-clone-2e824 200
+[debug] [2021-08-30T18:58:14.728Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/facebook-clone-2e824 {"projectId":"facebook-clone-2e824","projectNumber":"539137372330","displayName":"facebook-clone","name":"projects/facebook-clone-2e824","resources":{"hostingSite":"facebook-clone-2e824","storageBucket":"facebook-clone-2e824.appspot.com","locationId":"us-central"},"state":"ACTIVE"}
+[info] 
+[info] === Deploying to 'facebook-clone-2e824'...
+[info] 
+[info] i  deploying hosting 
+[debug] [2021-08-30T18:58:14.784Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2021-08-30T18:58:14.785Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-08-30T18:58:15.202Z] <<< HTTP RESPONSE 200 {"date":"Mon, 30 Aug 2021 18:58:14 GMT","pragma":"no-cache","expires":"Mon, 01 Jan 1990 00:00:00 GMT","cache-control":"no-cache, no-store, max-age=0, must-revalidate","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-08-30T18:58:15.343Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/facebook-clone-2e824/versions  
+ {"config":{"rewrites":[{"glob":"**","path":"/index.html"}]},"labels":{"deployment-tool":"cli-firebase"}}
+[debug] [2021-08-30T18:58:36.981Z] Error: connect ETIMEDOUT 216.58.200.138:443
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1146:16)
+[error] 
+[error] Error: Server Error. connect ETIMEDOUT 216.58.200.138:443
+[debug] [2021-08-30T19:00:13.491Z] ----------------------------------------------------------------------
+[debug] [2021-08-30T19:00:13.497Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\SAGNIK MITRA\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2021-08-30T19:00:13.499Z] CLI Version:   9.16.6
+[debug] [2021-08-30T19:00:13.499Z] Platform:      win32
+[debug] [2021-08-30T19:00:13.499Z] Node Version:  v14.16.0
+[debug] [2021-08-30T19:00:13.504Z] Time:          Tue Aug 31 2021 00:30:13 GMT+0530 (India Standard Time)
+[debug] [2021-08-30T19:00:13.505Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-08-30T19:00:13.904Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-08-30T19:00:13.905Z] > authorizing via signed-in user (sagnikmitra10@gmail.com)
+[debug] [2021-08-30T19:00:13.906Z] [iam] checking project facebook-clone-2e824 for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2021-08-30T19:00:13.919Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/facebook-clone-2e824:testIamPermissions  
+ {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2021-08-30T19:00:15.560Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Mon, 30 Aug 2021 19:00:14 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=1170","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-08-30T19:00:15.572Z] > refreshing access token with scopes: []
+[debug] [2021-08-30T19:00:15.573Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-08-30T19:00:16.066Z] <<< HTTP RESPONSE 200 {"pragma":"no-cache","date":"Mon, 30 Aug 2021 19:00:14 GMT","expires":"Mon, 01 Jan 1990 00:00:00 GMT","cache-control":"no-cache, no-store, max-age=0, must-revalidate","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-08-30T19:00:18.178Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/facebook-clone-2e824 [none]
+[debug] [2021-08-30T19:00:18.967Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/facebook-clone-2e824 200
+[debug] [2021-08-30T19:00:18.968Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/facebook-clone-2e824 {"projectId":"facebook-clone-2e824","projectNumber":"539137372330","displayName":"facebook-clone","name":"projects/facebook-clone-2e824","resources":{"hostingSite":"facebook-clone-2e824","storageBucket":"facebook-clone-2e824.appspot.com","locationId":"us-central"},"state":"ACTIVE"}
+[info] 
+[info] === Deploying to 'facebook-clone-2e824'...
+[info] 
+[info] i  deploying hosting 
+[debug] [2021-08-30T19:00:18.988Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2021-08-30T19:00:18.989Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-08-30T19:00:19.428Z] <<< HTTP RESPONSE 200 {"date":"Mon, 30 Aug 2021 19:00:18 GMT","pragma":"no-cache","cache-control":"no-cache, no-store, max-age=0, must-revalidate","expires":"Mon, 01 Jan 1990 00:00:00 GMT","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-08-30T19:00:21.469Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/facebook-clone-2e824/versions  
+ {"config":{"rewrites":[{"glob":"**","path":"/index.html"}]},"labels":{"deployment-tool":"cli-firebase"}}
+[debug] [2021-08-30T19:00:45.223Z] Error: connect ETIMEDOUT 216.58.200.138:443
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1146:16)
+[error] 
+[error] Error: Server Error. connect ETIMEDOUT 216.58.200.138:443
